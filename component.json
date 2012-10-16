@@ -1,0 +1,12 @@
+{
+  "name": "slidedeck",
+  "version": "0.1.0",
+  "dependencies": {
+    "onyx": "*",
+    "layout": "*",
+    "socket": "*",
+    "questions-pullout": "*",
+    "extra": "*",
+    "more-arrangers": "*"
+  }
+}

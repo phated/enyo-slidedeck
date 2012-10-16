@@ -1,0 +1,15 @@
+enyo.depends(
+  "$lib/onyx",
+  "$lib/layout",
+  "$lib/socket",
+  "$lib/questions-pullout",
+  "$lib/extra/exampler",
+  "$lib/more-arrangers",
+  "$lib/socket",
+  "source/slide.css",
+  "source/Navbar.js",
+  "source/Slide.js",
+  "source/CodeSlide.js",
+  "source/SlidesPane.js",
+  "source/Slidedeck.js"
+);
