@@ -4,16 +4,12 @@ enyo.kind({
   layoutKind: 'enyo.FittableRowsLayout',
 
   published: {
-    codeSamples: [],
-    title: "Playground"
+    codeSamples: []
   },
 
+  title: 'Playground',
+
   components: [
-    {
-      kind: "onyx.Toolbar",
-      name: "titleBar",
-      content: "Playground"
-    },
     {
       fit: true,
       kind: 'enyo.FittableColumns',
@@ -79,16 +75,6 @@ enyo.kind({
       ]
     }
   ],
-
-  create: function() {
-    this.inherited(arguments);
-
-    this.setTitle(this.title); // reload toolbar
-  },
-
-  setTitle: function(title) {
-    this.$.titleBar.content = title;
-  },
 
   renderIntoSandbox: function(inSender) {
     this.$.codePlayer.go(this.$.codeEditor.getValue());

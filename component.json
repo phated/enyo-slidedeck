@@ -8,5 +8,13 @@
     "questions-pullout": "*",
     "extra": "*",
     "more-arrangers": "*"
+  },
+  "readme": "# slidedeck\n\nSlidedeck library based on EnyoJS\n\n\n### Dependencies\n\n* onyx\n* layout\n* socket\n* questions-pullout\n* extra\n* more-arrangers\n* socket\n",
+  "readmeFilename": "README.md",
+  "_id": "slidedeck@0.1.0",
+  "description": "Slidedeck library based on EnyoJS",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/phated/enyo-slidedeck"
   }
 }
